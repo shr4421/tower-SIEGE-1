@@ -1,4 +1,4 @@
-const Engine = Matter.Engine;
+hconst Engine = Matter.Engine;
 const World= Matter.World;
 const Bodies = Matter.Bodies;
 const Constraint = Matter.Constraint;
@@ -52,7 +52,7 @@ function setup() {
 
   ground1 = new Ground(600,285,200,10);
   ground2 = new Ground(900,195,200,10);
-  ground3 = new Ground(750, 600, 1500, 10)
+  ground3 = new Ground(750, height, 1500, 30)
 
 
   block14 = new Block(900,170,30,40);
